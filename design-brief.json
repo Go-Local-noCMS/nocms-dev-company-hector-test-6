@@ -1,0 +1,48 @@
+{
+  "colors": {
+    "primary": "#A8421A",
+    "secondary": "#1A2B40",
+    "accent": "#D4622A",
+    "background": "#FDFAF4",
+    "surface": "#F5ECD7",
+    "text": "#1A2B40",
+    "muted": "#4A5568"
+  },
+  "typography": {
+    "headingFont": "Fraunces",
+    "bodyFont": "DM Sans",
+    "monoFont": "JetBrains Mono",
+    "scale": "default"
+  },
+  "spacing": "default",
+  "borderRadius": "lg",
+  "shadows": "elevated",
+  "mood": "Warm, trustworthy premium Americana — amber warmth meets navy authority with cream comfort",
+  "motionStyle": "moderate",
+  "layoutStyle": "storsafe-classic",
+  "designRules": [
+    "LAYOUT: StorSafe-classic — dark navy nav with icon dropdowns, photo-overlay hero with frosted glass search card and trust chips, animated stats bar, 4-step process with connector lines, 2x2 full-bleed photo overlay resource cards, feature grid on sand surface, photo gallery with lightbox, testimonial cards with rating breakdown bars, blog cards on dark, newsletter section, gradient CTA banner, multi-column footer with location drawer.",
+    "CONVERSION: Facility pages use Layout Option C — top 3-4 popular unit sizes as prominent cards above fold with reserve buttons. Search bar in hero frosted glass card. Market pages show pricing inline.",
+    "Promo banner at page top with amber bg, white text, dismiss button — for first-month-free or seasonal offers",
+    "Icon dropdowns on Storage Units and Resources nav items with hover reveal animation",
+    "Stats bar uses animated number counters on scroll-triggered reveal",
+    "Trust chips below hero search card — 'No contracts', 'Move in today', '24/7 access' with check icons",
+    "Review section includes rating breakdown bars (96% 5-star, etc.) and platform logos (Google, Yelp)"
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-white rounded-2xl p-7 border border-surface shadow-card hover:border-primary hover:shadow-warm transition-all\">",
+    "button": "<a className=\"bg-primary text-white font-semibold px-6 py-3 rounded-xl shadow-warm hover:bg-accent transition-all\">",
+    "buttonSecondary": "<a className=\"border-2 border-surface text-text font-semibold px-6 py-3 rounded-xl hover:bg-surface transition-all\">",
+    "heading": "<h2 className=\"font-heading text-4xl sm:text-5xl font-semibold text-text\">",
+    "subheading": "<p className=\"text-lg text-text-muted leading-relaxed\">",
+    "badge": "<span className=\"bg-primary text-white text-sm font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full\">",
+    "input": "<input className=\"w-full border-2 border-surface rounded-xl px-4 py-3 text-text placeholder:text-text-muted focus:border-primary transition\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-secondary text-white",
+    "navStyle": "sticky top-0 z-50 bg-secondary shadow-md",
+    "footerStyle": "bg-secondary text-white",
+    "iconBox": "<div className=\"w-14 h-14 rounded-2xl bg-surface text-primary flex items-center justify-center text-2xl shadow-card\">",
+    "divider": "<div className=\"h-px bg-gradient-to-r from-transparent via-text-muted/20 to-transparent\">"
+  }
+}
